@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_row_id"
+    android:layout_width="180dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/mainIv"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/mainTv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/mainIv"
+        app:layout_constraintStart_toStartOf="@+id/mainIv"
+        app:layout_constraintTop_toBottomOf="@+id/mainIv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

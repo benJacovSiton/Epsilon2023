@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "138087967223",
+    "firebase_url": "https://wizquiz-7f729-default-rtdb.firebaseio.com",
+    "project_id": "wizquiz-7f729",
+    "storage_bucket": "wizquiz-7f729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138087967223:android:76fef6fcddd516edc0e6f2",
+        "android_client_info": {
+          "package_name": "com.example.guessthenumber"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLfFVdYH3N1w34XYTr68Af-0QT_IvhhuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

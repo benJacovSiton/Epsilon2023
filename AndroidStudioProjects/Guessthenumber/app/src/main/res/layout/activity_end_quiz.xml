@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundendquiz"
+    tools:context=".AI_Mode.EndQuizActivity">
+
+    <TextView
+        android:id="@+id/TitleEndQuizTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הכותרת מייצגת אם ניצחת או הפסדת"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/HeadlineEndQuizTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="הטקסט פה מייצג הודעה מיוחדת אם ניצחת/הפסדת"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleEndQuizTv" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ScoresLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HeadlineEndQuizTV">
+
+        <ImageView
+            android:id="@+id/RightAnsEndQuizIv"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/poitnsicon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/RightAnsAiEndQuizTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="19dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/RightAnsAiEndQuizIv"
+            app:layout_constraintStart_toEndOf="@+id/RightAnsAiEndQuizIv"
+            app:layout_constraintTop_toTopOf="@+id/RightAnsAiEndQuizIv"
+            app:layout_constraintVertical_bias="0.527" />
+
+        <TextView
+            android:id="@+id/RightAnsEndQuizTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="19dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/RightAnsEndQuizIv"
+            app:layout_constraintStart_toEndOf="@+id/RightAnsEndQuizIv"
+            app:layout_constraintTop_toTopOf="@+id/RightAnsEndQuizIv"
+            app:layout_constraintVertical_bias="0.527" />
+
+        <ImageView
+            android:id="@+id/RightAnsAiEndQuizIv"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/fixai"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/RightAnsEndQuizTv"
+            app:layout_constraintTop_toTopOf="@+id/RightAnsEndQuizIv"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/EndQuizIV"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ticoaipic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoresLayout" />
+
+    <TextView
+        android:id="@+id/WrongsAnsEndQuizTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="השאלות שלא ידעת עליהן את התשובה "
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EndQuizIV" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/RetireButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="קח אותי חזרה"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WrongsAnsEndQuizTv" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

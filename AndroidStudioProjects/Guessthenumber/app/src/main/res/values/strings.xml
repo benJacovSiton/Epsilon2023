@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string-array name="categoryOptions">
+        <item>ספורט</item>
+        <item> מוזיקה</item>
+        <item> תרבות</item>
+        <item> סרטים וסדרות</item>
+        <item>תנ"כי</item>
+        <item>רשתות חברתיות</item>
+        <item> חברות ענק</item>
+        <item> טכנולוגיה</item>
+        <item> עולמי</item>
+        <item> מדיני</item>
+        <item> חשבון לא פשוט </item>
+        <item> היסטוריה </item>
+        <item> שיאי גינס </item>
+        <item>תחבורה</item>
+    </string-array>
+    <string name="title_activity_end_quiz">EndQuizActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_huge_companies">hugeCompanies</string>
+
+
+</resources>

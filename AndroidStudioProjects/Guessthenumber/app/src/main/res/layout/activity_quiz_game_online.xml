@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/OnlineQuizLayout"
+    android:background="@drawable/background7">
+
+    <ImageView
+        android:id="@+id/OnlineQuizIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sport"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/OnlineQuizTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/OnlineQuizClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:15"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/OnlineQuizAnsEt"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:hint="המספר שלך"
+            android:textSize="23sp"
+            android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/OnlineQuizQuestionNumTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="1/10"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/OnlineQuizV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+        <View
+            android:id="@+id/OnlineQuizV10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#808080"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/OnlineQuizScoreTv1"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="הניקוד שלך : "
+            android:textColor="@color/white"
+            android:gravity="start"
+            android:textSize="30sp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/OnlineQuizButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:text="יאללה"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
